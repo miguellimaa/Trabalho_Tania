@@ -135,4 +135,15 @@ footer {
     transform: scale(1.05);
 }
 
-
+a {
+  
+  display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
